@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   box-sizing: border-box;
+   
 }
 .logo img{
     height: 60 px;
@@ -16,28 +17,95 @@
     font-weight: semi bold;
     color: #ffffff;
     margin-left: 346px;
+    margin-right: 120px;
+    cursor: pointer;
+    display: flex;
+    gap: 12px;
+}
+.early-access{
+    height: 35px;
+    width: 229px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    
+
+    
 }
  header{
     background-color: #ffffff;
+    background: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
  }
  nav{
-    width: 1600px;
+    max-width: 1360px;
     height: 92px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+    
+    
  }
  nav .menu{
     display: flex;
     list-style-type: none;
     gap: 32px;
     align-items: center;
- }
+   
  nav .menu a{
     font: size 16px;
     color: #000000;
     text-decoration: none;
-   
-   
-
  }
+
+ #banner{
+     max-width: 1360px;
+     
+     display: flex;
+     margin: 0 auto;
+     align-items: center;
+     
+     
+ }
+
+#banner .banner-content {
+    max-width: 720px;
+    color: #ffffff;
+    
+    
+    
+}
+    
+#banner .banner-content .font{
+   font-size: 56px;
+   font-weight: 700px;
+   line-height: 1.2;
+   color: #ffffff; 
+   border-radius: 0%;
+}
+#banner .banner-content .sentence{
+    font-size: 56px;
+   font-weight: 700px;
+   color: #30B868;
+
+}
+
+ 
+
+ #banner .banner-content p{
+    font-size:16px;
+    color:  #dddddd;
+    line-height: 24px;
+    margin: 16px 0 24px;
+    
+ }
+    
+    
